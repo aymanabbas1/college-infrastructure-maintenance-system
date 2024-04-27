@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Request Form</title>
+    <link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/css/login.css">
+   <link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/css/locationform.css">
+</head>
+<body>
+<header>
+    
+       <span>Request</span>
+        <a  href="login.jsp"><button>Logout</button></a>
+   
+</header>
+
+<h2>Hallways Service Selection:</h2>
+<form action="${pageContext.request.contextPath}/UserFormServlet" method="post">
+    <label for="service">Select Service Required:</label>
+    <select id="service" name="service">
+        <option value="table-chair/bench repair">Table/Chair/Bench Repair</option>
+        <option value="lights repair">Lights Repair</option>
+    </select>
+    <br><br>
+    
+    <input type="hidden" name="location" value="${location}">
+    <input type="hidden" name="floor" value="${floor}">
+    <input type="hidden" name="username" value="${username}">
+    <input type="hidden" name="area" value="Hallways">
+    
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

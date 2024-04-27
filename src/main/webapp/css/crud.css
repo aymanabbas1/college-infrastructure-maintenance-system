@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* Basic reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2; /* Light gray background */
+        }
+        
+        
+       header {
+            background-color: #333;
+            display:flex;
+            margin-bottom:10px;
+           
+        }
+        
+		header a{
+		float:right;
+		margin-right: 5px;
+		margin-top: 7px;
+		margin-left:5px;
+		}
+       
+        header span {
+            color: white;
+            font-size: 20px;
+            margin: 0 ;
+            margin-left: 47vw;
+            margin-right: auto;
+            padding: 10px 0;
+        }
+
+        header a button{
+        background-color: white; /* White background */
+            color: black; /* Black text */
+            border-radius: 5px;
+            padding: 4px 6px;
+            
+        }
+		 h1 {
+		 	
+            margin-left:44vw;
+            margin-bottom: 10px;
+            
+        }
+        
+          /* Table styles */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top:5px;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+        
+        
+       .add-button button {
+        background-color: teal;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 15px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-left:5px;
+       
+    }
+
+   .add-button button:hover {
+        background-color: #006666;
+    }
+        
+        
+        

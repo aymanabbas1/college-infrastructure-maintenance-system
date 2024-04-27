@@ -1,0 +1,53 @@
+@charset "UTF-8";
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2; /* Light gray background */
+        }
+
+header {
+            background-color: #333;
+            margin-bottom: 20px;
+            display:flex;
+        }
+        
+		header a{
+		float:right;
+		margin-right: 5px;
+		margin-top: 7px;
+		margin-left:auto;
+		}
+       
+        header span {
+            color: white;
+            font-size: 20px;
+            margin: 0 ;
+            margin-left: 47vw;
+            margin-right: auto;
+            padding: 10px 0;
+        }
+
+        header a button{
+        background-color: white; /* White background */
+            color: black; /* Black text */
+            border-radius: 5px;
+            padding: 4px 6px;
+        }
+
+  
+
+select,
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box; /* Ensure padding and border are included in width */
+        }
+	
+
