@@ -15,7 +15,7 @@ The College Infrastructure Maintenance System is a web application designed to m
 
 ## Tools and Technologies used
 - **Java**: For backend development.
-- **JSP (JavaServer Pages)**: For rendering web pages.
+- **JSP**: For rendering web pages.
 - **Servlets**: For handling HTTP requests and responses.
 - **JDBC (Java Database Connectivity)**: For database operations.
 - **MySQL**: For database management.
@@ -40,7 +40,6 @@ The College Infrastructure Maintenance System is a web application designed to m
    git clone https://github.com/yourusername/college-infrastructure-maintenance-system.git
    cd college-infrastructure-maintenance-system
 
-   # College Infrastructure Maintenance System
 
 
 
